@@ -9,3 +9,7 @@ The fifth project in Free Code Camp's [HTML/CSS certification track](https://lea
 
 This project demonstrates:
 
+- fixed top navigation bar
+- an element that covers the entire viewport
+- linear gradient background
+- 

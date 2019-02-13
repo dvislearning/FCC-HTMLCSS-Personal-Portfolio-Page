@@ -52,3 +52,84 @@ table {
 body {
 	background-color: #FFFFFF;
 }
+
+#welcome-section {
+	background: linear-gradient(170deg, #433c78, #785e3c);
+	width: 100vw;
+	height: 100vh;
+	position: static;
+	display: flex;
+	font-family: Verdana, Geneva, sans-serif;
+	justify-content: center;
+	align-items: center;
+}
+
+#greeting-container h1{
+	color: #2ecc71;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+#greeting-container h2 {
+	margin-top: 3%;
+	color: #65c6bb;
+	font-size: 1.15em;
+	line-height: 1.15em;
+	text-align: center;
+}
+
+#navbar {
+	position: fixed;
+	background-color: #433c78;	
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	z-index: 55;
+}
+
+#nav-link-container {
+	height: 100%;
+	float: right;
+	display: flex;
+	align-items: center;
+	margin-right: 8%
+}
+
+#nav-link-container a {
+	color: #00d46a;
+	font-size: 1.2em;
+	font-weight: 600;
+	font-family: Impact, Charcoal, sans-serif;
+	text-decoration: none;
+}
+
+#nav-link-container a:hover {
+	color: #7fffd4;
+}
+
+.nav-link {
+	margin-right: 16%;
+}
+
+.nav-link:last-child {
+	margin-right: 1%;
+}
+
+#projects {
+	background-color: #372b91;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 450px) {
+
+	#nav-link-container {
+		margin-left: 10%;
+		float: left;
+	}
+	
+}
+
+/* #65c6bb */
