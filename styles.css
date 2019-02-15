@@ -151,7 +151,7 @@ body {
 	height: 75%;
 	width: 75%;
 	display: grid;
-	padding-left: 10%;
+	padding-left: 17%;
 	grid-template-columns: repeat(3, minmax(100px, 250px));
 	grid-template-rows: repeat(2, minmax(200px, 250px));
 	grid-gap: 10%;
@@ -181,12 +181,19 @@ body {
 #github-link-container {
 	display: flex;
 	width: 100%;
+	justify-content: center;
+	margin-top: 10%;
 }
 
 #profile-link {
-	font-size: 2em;
+	font-size: 2.7em;
 	color:  #00e0e0;
 	text-decoration: none;
+}
+
+#github-link-container a:hover {
+	color:  #00ff00;
+	font-size: 2.8em;
 }
 
 
